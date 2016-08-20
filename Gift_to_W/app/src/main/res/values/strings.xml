@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">老陸與她</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">
+        Settings
+    </string>
+    <string-array name="planets_array">
+        <item>台北</item>
+        <item>台中</item>
+        <item>高雄</item>
+        <item>美國</item>
+        <item>大陸</item>
+    </string-array>
+</resources>

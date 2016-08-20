@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="colorPrimary2">#435055</color>
+    <color name="colorPrimaryDark2">#27323A</color>
+    <color name="colorAccent2">#29A19C</color>
+    <color name="forget">#A3F7BF</color>
+    <color name="forget2">#5D5D5D</color>
+    <color name="dark">#000</color>
+    <color name="dark_l">#020202</color>
+    <color name="dark_light">#cccccc</color>
+
+    <color name="myshadow">@color/forget2</color>
+    <color name="myline">#cccccc</color>
+
+    <color name="g_red">#c2181f</color>
+    <color name="g_yellow">#f2cb80</color>
+
+    <color name="colorhunt1_1">#403121</color>
+    <color name="colorhunt1_2">#A65E09</color>
+    <color name="colorhunt1_3">#ED9728</color>
+    <color name="colorhunt1_4">#FAF494</color>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:id="@+id/main">
+
+    <ImageView
+        android:id="@+id/hi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+    <View
+        android:id="@+id/line1"
+        android:layout_width="300dp"
+        android:layout_height="2dp"
+        android:background="@drawable/line"
+        android:layout_marginTop="3dp"
+        android:layerType="software"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/hi"
+        />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_below="@id/line1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="老陸與她"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:visibility="invisible"
+        android:textSize="40dp"/>
+    <View
+        android:id="@+id/line2"
+        android:layout_width="300dp"
+        android:layout_height="2dp"
+        android:background="@drawable/line"
+        android:layerType="software"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/title"
+        />
+    <ImageView
+        android:id="@+id/mybamax"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/my_baymax_withline"
+        android:layout_centerHorizontal="true"
+        android:layout_alignLeft="@id/line2"
+        android:layout_below="@id/line2"
+        android:clickable="true"/>
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/snoopy_movie2"
+            android:layout_alignParentBottom="true"/>
+    <!--            android:scaleType="fitEnd"-->
+</RelativeLayout>

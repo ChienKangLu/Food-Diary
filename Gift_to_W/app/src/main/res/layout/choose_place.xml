@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/snoopy"
+        android:src="@drawable/snoopy_love"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:clickable="true"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="要去哪裡吃呢?"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/snoopy"/>
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/line"
+        android:layout_below="@+id/title"
+        android:layout_margin="10dp"/>
+
+    <ListView
+        android:id="@+id/showdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="15dp"
+        android:paddingBottom="30dp"
+        ></ListView>
+</RelativeLayout>

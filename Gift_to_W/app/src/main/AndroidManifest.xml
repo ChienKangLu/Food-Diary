@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.leo.gift_to_w">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!--"@mipmap/ic_launcher"-->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/my_icon2"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:launchMode="singleTop">
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity
+            android:name=".add_food"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+            <meta-data android:name="com.google.android.gms.version"
+                android:value="@integer/google_play_services_version" />
+        </activity>
+        <activity
+            android:name=".add_article"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".choose_place"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".my_message.message_show"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".add_message"
+            android:label="@string/app_name"
+            android:parentActivityName=".my_message.message_show"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".edit_message"
+            android:label="@string/app_name"
+            android:parentActivityName=".my_message.message_show"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".quideshow.Myintro"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateAlwaysHidden">
+
+        </activity>
+        <activity
+            android:name=".gift_main"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".happy_birthday_card.Myintro"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+    </application>
+
+</manifest>

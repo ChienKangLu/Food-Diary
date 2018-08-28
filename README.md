@@ -1,10 +1,4 @@
 # Food-Diary-Android-App
-![image](https://github.com/LuckWhy/Gift_to_W/blob/master/s1.png)
-![image](https://github.com/LuckWhy/Gift_to_W/blob/master/s2.png)
-![image](https://github.com/LuckWhy/Gift_to_W/blob/master/s3.png)
-![image](https://github.com/LuckWhy/Gift_to_W/blob/master/s4.png)
-![image](https://github.com/LuckWhy/Gift_to_W/blob/master/s5.png)
-![image](https://github.com/LuckWhy/Gift_to_W/blob/master/s9.png)
-![image](https://github.com/LuckWhy/Gift_to_W/blob/master/s6.png)
-![image](https://github.com/LuckWhy/Gift_to_W/blob/master/s7.png)
-![image](https://github.com/LuckWhy/Gift_to_W/blob/master/s8.png)
+
+## Screenshots
+<img height="250" src="https://github.com/ChienKangLu/Food-Diary-Android-App/blob/master/Gift_to_W/app/src/main/res/drawable/s1_2.png" />

@@ -25,8 +25,11 @@
   <img height="250" src="https://github.com/ChienKangLu/Food-Diary-Android-App/blob/master/Gift_to_W/app/src/main/res/drawable/s9_2.png" />
 </p>
 
-<img height="250" src="https://github.com/ChienKangLu/Food-Diary-Android-App/blob/master/Gift_to_W/app/src/main/res/drawable/s7_2.png" />
-<br/>
-<img height="250" src="https://github.com/ChienKangLu/Food-Diary-Android-App/blob/master/Gift_to_W/app/src/main/res/drawable/s8_2.png" />
-<br/>
+### Write diary and add some stickers
+<p align="center">
+  <img height="250" src="https://github.com/ChienKangLu/Food-Diary-Android-App/blob/master/Gift_to_W/app/src/main/res/drawable/s7_2.png"  />
+  <img height="250" src="https://github.com/ChienKangLu/Food-Diary-Android-App/blob/master/Gift_to_W/app/src/main/res/drawable/s8_2.png" />
+</p>
+
+
 

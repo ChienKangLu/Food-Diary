@@ -21,8 +21,8 @@
 
 ### Record Food you have ever eaten
 <p align="center">
-  <img height="250" src="https://github.com/ChienKangLu/Food-Diary-Android-App/blob/master/Gift_to_W/app/src/main/res/drawable/s6_2.png" />
   <img height="250" src="https://github.com/ChienKangLu/Food-Diary-Android-App/blob/master/Gift_to_W/app/src/main/res/drawable/s9_2.png" />
+  <img height="250" src="https://github.com/ChienKangLu/Food-Diary-Android-App/blob/master/Gift_to_W/app/src/main/res/drawable/s6_2.png" />
 </p>
 
 ### Write diary and add some stickers

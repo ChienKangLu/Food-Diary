@@ -1,5 +1,5 @@
 # Food-Diary-Android-App
-
+This is an app used for record food and write some special diary for each food.
 ## Screenshots
 
 ### Random pick where to eat
